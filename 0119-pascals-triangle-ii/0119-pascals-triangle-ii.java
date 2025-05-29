@@ -1,10 +1,11 @@
 class Solution {
-    public static List<List<Integer>> x=new ArrayList<>();
+   // public static List<List<Integer>> x=new ArrayList<>();
     public List<Integer> getRow(int rowIndex) {
-        if(rowIndex<x.size())
-         return x.get(rowIndex);
+        // if(rowIndex<x.size())
+        //  return x.get(rowIndex);
          int i,j;
-        for(i=x.size();i<=rowIndex;i++)
+        List<List<Integer>> x=new ArrayList<>();
+        for(i=0;i<=rowIndex;i++)
         {  List<Integer> l=new ArrayList<>();
            for(j=0;j<i;j++)
            {
