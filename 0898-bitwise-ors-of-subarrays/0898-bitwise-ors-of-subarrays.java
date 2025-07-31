@@ -12,6 +12,7 @@ class Solution {
                 s.add(arr[j]);
             }
         }
+        //System.out.println(Arrays.toString(arr)+" "+s);
         return s.size();
     }
 }
