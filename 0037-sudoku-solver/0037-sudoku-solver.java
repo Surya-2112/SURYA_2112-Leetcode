@@ -39,29 +39,6 @@ class Solution {
         return true;
     }
     public void solveSudoku(char[][] board) {
-        int i,j;
-        // List<Integer> row[]=new ArrayList[9];
-        // List<Integer> col[]=new ArrayList[9];
-        // List<Integer> di[]=new ArrayList[9];
-        // List<Integer> l=new ArrayList<>();
-        // for(i=1;i<10;i++) l.add(i);
-        // for(i=0;i<9;i++)
-        // {
-        //     row[i]=new ArrayList<Integer>(l);
-        //     col[i]=new ArrayList<Integer>(l);
-        //     di[i]=new ArrayList<Integer>(l);
-        // }
-        // for(i=0;i<9;i++)
-        // {
-        //     for(j=0;j<9;j++)
-        //     {
-        //        if(board[i][j]!='.'){
-        //         row[i].remove((Object)(board[i][j]-'0'));
-        //         col[j].remove((Object)(board[i][j]-'0'));
-        //         di[((i/3)*3)+(j/3)].remove((Object)(board[i][j]-'0'));
-        //        }
-        //     }
-        // }
         makesudo(board,0);
     }
 }
